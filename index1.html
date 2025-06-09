@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELETIVA: LATE E MIA</title>
+    <link rel="stylesheet" href="styles1.css">
+    <link rel="shortcut icon" href="favicon_io/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="quiz-container">
+        <div id="start-screen" class="start-screen">
+            <img id="foto" src="35a60923-5e4c-42be-aaad-c79804aee07f.jpeg" alt="medicina">
+            <h1>Quiz: LATE E MIA</h1>
+            <p>Este quiz aborda temas da medicina veterinária.</p>
+            <button id="start-btn" class="start-btn">Começar Quiz</button>
+        </div>
+
+        <div id="quiz" class="quiz hide">
+            <div id="question-container">
+                <div id="progress">Pergunta 1/10</div>
+                <div id="question" class="question"></div>
+                <div id="answer-buttons" class="answer-buttons"></div>
+            </div>
+            <div class="feedback hide" id="feedback"></div>
+            <button id="next-btn" class="next-btn hide">Próxima Pergunta →</button>
+        </div>
+
+        <div id="results" class="results hide">
+            <h2>Resultado Final</h2>
+            <p id="score-text"></p>
+            <p id="attempts-text"></p>
+            <div class="final-buttons">
+                <button id="restart-btn" class="restart-btn">Fazer Novamente</button>
+                <button id="home-btn" class="home-btn">Voltar ao Início</button>
+            </div>
+        </div>
+    </div>
+    <script src="script1.js"></script>
+    
+</body>
+</html>
